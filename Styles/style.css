@@ -243,7 +243,7 @@ background: rgb(255, 194, 57);
     line-height: 24px;
     margin: 12px 0px;
 }
-#quote_speaker{
+.quote_speaker{
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
     font-weight: 600;
@@ -251,10 +251,88 @@ background: rgb(255, 194, 57);
     margin: 4px 0px;
 }
 
-#speaker_info{
+.speaker_info{
     color: rgba(14, 14, 14, 0.6);
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     margin: 4px 0px;
+}
+
+.news{
+    width: 1280px;
+    margin: 0px 160px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.news_head{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 12px 0px;
+}
+
+.news_head_description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.news_image{
+    border-radius: 24px;
+}
+
+.news_title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.news_time{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.short_news{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.read_more_button{
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(0, 106, 80);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.news_box{
+    display: flex;
+    padding: 48px;
+    gap: 32px;
+    background-color: white;
+    border-radius: 24px;
+    margin: 24px 0px 0px;
+}
+
+.news_box_reversed{
+    flex-direction: row-reverse;
+}
+
+.news_detail{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
