@@ -1,0 +1,34 @@
+.fira-sans-normal {
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1280px;
+    padding: 24px 160px;
+    align-items: center;
+    
+}
+
+.nav_title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.nav_btn {
+    font-size: 18px;
+    font-weight: 600;
+    box-sizing: border-box;
+    color: rgb(0, 106, 80);
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    width: 116px;
+    height: 52px;
+    background-color: white;
+}
