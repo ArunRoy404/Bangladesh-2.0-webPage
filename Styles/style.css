@@ -336,3 +336,74 @@ background: rgb(255, 194, 57);
     justify-content: space-between;
     flex-direction: column;
 }
+
+
+.donate_title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.donate_description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 1104px;
+    text-align: center;
+}
+
+.donate_button{
+    width: 240px;
+    height: 128px;  
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.input_amount{
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    width: 1032px;
+    height: 64px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.donate_now_button{
+    width: 151px;
+    height: 56px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.donate_section{
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 160px 80px;
+    align-items: center;
+    gap: 32px;
+}
+
+.donate_amounts{
+    width: 1071px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
