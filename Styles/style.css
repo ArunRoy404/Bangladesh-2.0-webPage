@@ -394,6 +394,7 @@ nav{
 }
 .news_card_reversed:hover{
     box-shadow: 10px 10px 10px rgba(175, 205, 235);
+    box-shadow: -10px 10px 10px rgba(175, 205, 235);
 }
 
 .news_detail{
@@ -401,7 +402,13 @@ nav{
     justify-content: space-between;
     flex-direction: column;
 }
+.news_title{
+    margin-bottom: 12px;
+}
 
+.news_time{
+    margin-top: 12px;
+}
 
 .donate_title{
     color: rgb(14, 14, 14);
