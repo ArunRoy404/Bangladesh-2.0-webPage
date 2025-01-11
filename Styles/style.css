@@ -428,7 +428,7 @@ nav{
 .input_amount{
     border-bottom: 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(255, 255, 255);
-    width: 1032px;
+    width: 952px;
     height: 64px;
     border-top: none;
     border-left: none;
@@ -439,7 +439,7 @@ nav{
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    font-family: "Fira Sans", serif
+    font-family: "Fira Sans", serif;
 }
 .donate_now_button{
     width: 151px;
