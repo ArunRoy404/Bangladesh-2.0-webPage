@@ -418,6 +418,8 @@ nav{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
 
 .donate_button:hover{
