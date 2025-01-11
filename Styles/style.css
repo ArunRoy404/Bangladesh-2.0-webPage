@@ -157,9 +157,7 @@ nav{
 
 .vision_section{
     width: 1280px;
-    height: 765px;
     margin: 0px 160px 80px;
-
 }
 
 .vision_section_title{
@@ -555,4 +553,71 @@ background: rgb(255, 194, 57);
     gap: 24px;
 }
 
+.opinion_section{
+    width: 1280px;
+    margin: 0px 160px 80px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
 
+.opinion_title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.opinion_table{
+    background-color: white;
+    width: 1261px;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+table {
+    margin: 32px;
+    width: 1216px;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+}
+th{
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 24px;
+    background-color:rgb(198, 228, 214);
+}
+td {
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 36px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    
+}
+.select_opinion {
+    padding: 10px 14px;
+    width: 152px;
+    height: 44px;
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+    text-align: left;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgba(9, 161, 92, 0.15);
+}
+.select_opinion_cell{
+    display: flex;
+    justify-content: center;
+}
