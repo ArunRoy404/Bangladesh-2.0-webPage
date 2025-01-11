@@ -47,6 +47,14 @@ nav{
     width: 116px;
     height: 52px;
     background-color: white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.nav_btn:hover{
+    background-color: rgb(0, 106, 80);
+    color: white;
+    box-shadow: 5px 5px 5px gray;
 }
 
 .banner{
@@ -99,10 +107,21 @@ nav{
     color: white;
     line-height: 22px;
     letter-spacing: 0%;
+    transition-duration: 0.4s;
 }
 .btn{
     cursor: pointer;
+    transition-duration: 0.4s;
 }
+
+.btn:hover{
+    background-color: white;
+    color: rgb(0, 106, 80);
+    box-shadow: 5px 5px 5px;
+    border: 1px solid rgb(0, 106, 80);
+
+}
+
 
 .pillars_section{
     width: 1280px;
@@ -232,19 +251,29 @@ nav{
 }
 
 .vision_button1{
+    border-radius: 8px;
     background: rgb(84, 144, 245);
+}
+.vision_button1:hover{
+    color:  rgb(84, 144, 245);
+    border: 1px solid;
+    box-shadow: 5px 5px 5px;
 }
 
 .vision_button2{
     border-radius: 8px;
-
-background: rgb(9, 161, 92);
+    background: rgb(9, 161, 92);
 }
 
 .vision_button3{
     border-radius: 8px;
+    background: rgb(255, 194, 57);
+}
 
-background: rgb(255, 194, 57);
+.vision_button3:hover{
+    color: rgb(255, 194, 57);
+    border: 1px solid;
+    box-shadow: 5px 5px 5px;
 }
 
 .quote_section{
@@ -389,6 +418,10 @@ background: rgb(255, 194, 57);
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
+}
+
+.donate_button:hover{
+    background-color: rgb(198, 228, 214);
 }
 .input_amount{
     border-bottom: 1px solid rgba(14, 14, 14, 0.15);
