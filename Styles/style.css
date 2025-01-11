@@ -52,6 +52,7 @@ nav{
 }
 
 .nav_btn:hover{
+    transform: translateY(-5px);
     background-color: rgb(0, 106, 80);
     color: white;
     box-shadow: 5px 5px 5px gray;
@@ -118,6 +119,7 @@ nav{
     background-color: white;
     color: rgb(0, 106, 80);
     box-shadow: 5px 5px 5px;
+    transform: translateY(-5px);
     border: 1px solid rgb(0, 106, 80);
 
 }
@@ -371,17 +373,27 @@ nav{
     line-height: 22px;
 }
 
-.news_box{
+.news_card{
     display: flex;
     padding: 48px;
     gap: 32px;
     background-color: white;
     border-radius: 24px;
     margin: 24px 0px 0px;
+    transition-duration: 0.4s;
 }
 
-.news_box_reversed{
+.news_card:hover{
+    background-color: rgb(235, 245, 255);
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 10px rgba(175, 205, 235);
+}
+
+.news_card_reversed{
     flex-direction: row-reverse;
+}
+.news_card_reversed:hover{
+    box-shadow: 10px 10px 10px rgba(175, 205, 235);
 }
 
 .news_detail{
@@ -407,7 +419,7 @@ nav{
     text-align: center;
 }
 
-.donate_button{
+.donate_card{
     width: 240px;
     height: 128px;  
     color: rgba(14, 14, 14, 0.8);
@@ -422,7 +434,7 @@ nav{
     transition-duration: 0.4s;
 }
 
-.donate_button:hover{
+.donate_card:hover{
     background-color: rgb(198, 228, 214);
 }
 .input_amount{
