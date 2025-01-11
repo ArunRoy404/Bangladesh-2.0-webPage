@@ -117,6 +117,27 @@ nav{
     margin-bottom: 32px;
 }
 
+.pillar_title{
+    width: 254px;
+    height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.pillar_description{
+    width: 254px;
+    height: 72px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
 .pillars_container{
     display: flex;
     gap: 24px;
