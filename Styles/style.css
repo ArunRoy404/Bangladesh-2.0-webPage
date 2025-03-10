@@ -16,6 +16,11 @@
     font-family: "Fira Sans"
 }
 
+.main-body{
+    width: max-content;
+    margin: 0px auto;
+}
+
 .img{
     cursor: pointer;
 }
