@@ -13,9 +13,7 @@
 
 #body{
     background-color: rgb(245, 245, 245);
-    font-family: "Fira Sans";
-    width: max-content;
-    margin: 0px auto;
+    font-family: "Fira Sans"
 }
 
 .img{
